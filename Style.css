@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cart {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item i { cursor: pointer;}
+
+.item-name {
+    flex: 1;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    background-color: #6e6f6f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.item-quantity {
+    margin: 0 10px;
+}
+
+.delete-btn {
+    background-color: #5d49a1;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.like-btn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #ccc;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+#total {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}

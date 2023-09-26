@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div id="cart">
+        <!-- Sample cart items -->
+        <div class="cart-item">
+            <span class="item-name">Plantain chips</span>
+            <span class="item-price">$10.00</span>
+            <div class="quantity-control">
+                <button class="quantity-btn decrease">-</button>
+                <span class="item-quantity">1</span>
+                <button class="quantity-btn increase">+</button>
+            </div>
+            <button class="delete-btn">Delete</button>
+            <button class="like-btn"><i class="fa-solid fa-heart fa-xl"></i></button>
+        </div>
+        <div class="cart-item">
+            <span class="item-name">Sausage rolls</span>
+            <span class="item-price">$15.00</span>
+            <div class="quantity-control">
+                <button class="quantity-btn decrease">-</button>
+                <span class="item-quantity">1</span>
+                <button class="quantity-btn increase">+</button>
+            </div>
+            <button class="delete-btn">Delete</button>
+            <button class="like-btn"><i class="fa-solid fa-heart fa-xl"></i></button>
+        </div>
+    </div>
+    <div id="total">
+        <span>Total: <span id="total-price">$25.00</span></span>
+    </div>
+    <script src="https://kit.fontawesome.com/dfe3cbae48.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
